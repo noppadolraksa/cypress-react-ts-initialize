@@ -4,7 +4,7 @@
 4. create cypress folder , delete jest setting in package.json
 
 **run test :**<br/>
-//run test with no starting server
+//run test with no starting server<br/>
 npm run cypress:start:app
 
 //start server and run cypress:start:app then wait http://localhost:3000<br/>
