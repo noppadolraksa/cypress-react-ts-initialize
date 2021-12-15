@@ -7,7 +7,7 @@
 //run test with no starting server
 npm run cypress:start:app
 
-//start server and run cypress:start:app then wait http://localhost:3000
+//start server and run cypress:start:app then wait http://localhost:3000<br/>
 npm run cypress:start:wait
 
 //run for development
