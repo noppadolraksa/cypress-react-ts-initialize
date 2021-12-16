@@ -1,7 +1,8 @@
 1. npm i cypress @cypress/instrument-cra @cypress/code-coverage start-server-and-test
-2. tsconfig.json => add {"types":["cypress"]}
-3. add gitignore
-4. create cypress folder , delete jest setting in package.json
+2. npx cypress run
+3. tsconfig.json => add {"types":["cypress"]}
+4. add gitignore
+5.  delete jest setting in package.json
 
 **run test :**<br/>
 //run test with no starting server<br/>
