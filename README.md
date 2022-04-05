@@ -1,21 +1,35 @@
-1. npm i cypress @cypress/instrument-cra @cypress/code-coverage start-server-and-test
-2. npx cypress run
-3. tsconfig.json => add {"types":["cypress"]}
-4. add gitignore
-5.  delete jest setting in package.json
+# ENDPOINT
 
-**run test :**<br/>
-//run test with no starting server<br/>
-npm run cypress:start:app
+- **USER**
 
-//start server and run cypress:start:app then wait http://localhost:3000<br/>
-npm run cypress:start:wait
+  - **POST** /api/v1/auth/login/ _body={email,password}_ login
+  - **GET** /api/v1/auth/listAll/ get all user
+  - **GET** /api/v1/auth/list?limit=10?page=1?is_active=boolean?is_delete=boolean?search=nameOrFirstNameOrLastName/
 
-//run for development<br/>
-npm run cypress:open
+- **AUTH**
 
-//run for ci server in headless mode<br/>
-npm run cypress:run
+  - **POST** /api/v1/auth/login _body={email,password}_ login
 
-**coverage log :**<br/>
-open coverage/lcov-report/index.html
+- **DASHBOARD**
+
+  - **POST** /api/v1/auth/login _body={email,password}_ login
+
+- **PRIVILEGE**
+
+  - **POST** /api/v1/auth/login _body={email,password}_ login
+
+- **ADDRESS**
+
+  - **POST** /api/v1/auth/login _body={email,password}_ login
+
+- **UPLOAD**
+
+  - **POST** /api/v1/auth/login _body={email,password}_ login
+
+- **BANNER**
+
+  - **POST** /api/v1/auth/login _body={email,password}_ login
+
+- **DYNAMIC**
+
+  - **POST** /api/v1/auth/login _body={email,password}_ login
